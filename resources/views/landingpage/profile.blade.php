@@ -108,7 +108,7 @@
                     <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="id" id="id" value="{{ $user->masyarakat->id }}">
                         <input type="hidden" name="nik" id="nik" value="{{ $user->masyarakat->nik }}">
-                        <input type="hiddem" name="email" value="{{ $user->email }}">
+                        <input type="hidden" name="email" value="{{ $user->email }}">
                         <input type="hidden" name="jk" value="{{ $user->masyarakat->jk }}">
                         <input type="hidden" name="alamat" value="{{ $user->masyarakat->alamat }}">
                         <input type="hidden" name="name" value="{{ $user->name }}">
