@@ -16,9 +16,9 @@
                         <li class="{{ Request::is('pengaduan') ? 'active' : '' }}">
                             <a href="{{ route('pengaduan') }}" class="nav-link">Pengaduan</a>
                         </li>
-                        <li class="{{ Request::is('team') ? 'active' : '' }}">
+                        {{-- <li class="{{ Request::is('team') ? 'active' : '' }}">
                             <a href="{{ route('team') }}" class="nav-link">Team</a>
-                        </li>
+                        </li> --}}
                         <li class="{{ Request::is('contact') ? 'active' : '' }}">
                             <a href="{{ route('contact') }}" class="nav-link">Contact</a>
                         </li>
